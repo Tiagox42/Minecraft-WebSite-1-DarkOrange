@@ -1,0 +1,2 @@
+title = document.getElementById('title');
+
