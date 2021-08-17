@@ -1,2 +1,33 @@
-title = document.getElementById('title');
+titleSite = "BattleCraft";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------------------------------------------------//
+
+function onload() {
+    document.title = titleSite
+}
