@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/core.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="js/necessary.js"></script>
+    <script src="js/core.js"></script>
     <title></title>
-    <script>
-        (function () {
-            onload()
-        })();
-    </script>
 </head>
 <body>
 
@@ -22,15 +20,42 @@
             <div class="logo">
                 <img src="/img/logo.png" alt="">
             </div>
-            <p>BattleCraft</p>
+            <a href="#"><p>BattleCraft</p></a>
         </div>
         <div class="clear"></div>
 
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Social</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="serverIp">
-            <span data-playercounter-ip="my.server.ip">0</span>
+            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com" data-playercounter-status>...</span></b> <span></span> Players: <b><span data-playercounter-ip="play.cubecraft.net" data-playercounter-format="{online}/{max}">0</span></b></p>
+        </div>
+        <div class="bar"></div>
+
+        <div class="rightBar">
+            <div class="discord">
+                <iframe src="https://discord.com/widget?id=620346870748676137&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
         </div>
 
+        <div class="content">
+            <p>Integer et lectus sollicitudin, viverra leo iaculis, iaculis erat. Sed orci ante, mattis et elit nec, faucibus posuere nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur lobortis interdum nisi nec suscipit. Praesent in interdum diam. Ut tellus massa, consequat a eleifend a, viverra nec libero. Maecenas vel mollis magna. Morbi ornare cursus ornare. Sed quis nisi ultricies, feugiat arcu et, elementum lacus. Donec eleifend arcu non nunc pellentesque accumsan. Vivamus faucibus ante sed ipsum posuere, sit amet porttitor tortor posuere. Nunc interdum, dolor fermentum pharetra interdum, arcu tortor mollis ligula, eget pretium justo nibh id sem. Suspendisse eleifend odio fermentum, fermentum neque vitae, pharetra ipsum. In hac habitasse platea dictumst. Etiam imperdiet elit nunc, id scelerisque neque luctus eget.</p>
 
+            <p>Aenean vel est tristique, lacinia sapien ut, blandit odio. Nam id odio vel quam ullamcorper eleifend aliquam in magna. Integer convallis dui id neque pharetra consectetur. Sed gravida mollis aliquet. Fusce augue ex, aliquet vel turpis id, congue pellentesque mauris. Mauris faucibus, sapien at euismod aliquet, libero lacus rhoncus tortor, vitae laoreet elit ex in nisl. Maecenas nisi metus, porta non mattis ac, vehicula quis lacus. Quisque imperdiet diam quam, eget vulputate mauris varius ac. Mauris placerat, eros sed efficitur vestibulum, urna nibh varius lorem, eleifend consectetur ex augue nec nisi. Morbi mi lectus, efficitur vitae ligula ac, cursus dictum neque. Praesent tempus mollis dui eget iaculis. Suspendisse aliquam, odio quis porta malesuada, risus urna malesuada nibh, eu blandit elit nisi malesuada lectus.</p>
+
+            <p>Praesent convallis, tellus nec convallis venenatis, nunc magna cursus nibh, eu aliquet lacus augue a diam. Vivamus porta pulvinar enim, non rhoncus dolor auctor et. Duis vehicula lorem ac auctor auctor. Suspendisse at purus diam. Maecenas malesuada enim id orci fermentum, ac euismod nibh tristique. Nunc vitae viverra neque. Cras eleifend vehicula cursus. Cras ut pellentesque nisl. Curabitur cursus lectus tellus, a cursus odio consequat at. Ut suscipit magna libero, vel tristique turpis malesuada sed.</p>
+
+        </div>
     </div>
 
 </body>
