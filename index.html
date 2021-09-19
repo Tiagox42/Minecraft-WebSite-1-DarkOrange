@@ -7,6 +7,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
     <script src="js/necessary.js"></script>
     <script src="js/core.js"></script>
@@ -15,6 +20,10 @@
 <body>
 
     <div class="container">
+        <div class="serverIp">
+            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com" data-playercounter-status>...</span></b> <span></span> Players: <b><span data-playercounter-ip="play.cubecraft.net" data-playercounter-format="{online}/{max}">0</span></b></p>
+        </div>
+        <div class="bar"></div>
 
         <div class="bannerTop">
             <div class="logo">
@@ -22,6 +31,7 @@
             </div>
             <a href="#"><p>BattleCraft</p></a>
         </div>
+        <div class="barTwo"></div>
         <div class="clear"></div>
 
 
@@ -29,33 +39,135 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
                     <li><a href="#">Information</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Shop</a></li>
                     <li><a href="#">Social</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="serverIp">
-            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com" data-playercounter-status>...</span></b> <span></span> Players: <b><span data-playercounter-ip="play.cubecraft.net" data-playercounter-format="{online}/{max}">0</span></b></p>
-        </div>
-        <div class="bar"></div>
+        
 
-        <div class="rightBar">
-            <div class="discord">
-                <iframe src="https://discord.com/widget?id=620346870748676137&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <div class="homeGallery">
+
+            <div class="homeGalleryTwo">
+
+                <div class="hg1">
+                    <p class="textHGtwo">Special Items</p>
+                </div>
+    
+                <div class="hg2">
+                    <p class="textHGtwo">Economy</p>
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="homeGalleryOne">
+
+                <div class="hg3">
+                    <p class="textHGone">Great community</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="middleSection">
+            <div class="bannermiddle">
+
+                <div class="infoServer">
+                        <p style="color: #ffcc00;">This server is based on <strong><span>Full PVP</span></strong> model</p>
+                        <br>
+                        <p style="color: red;">We have:</p>
+                        <br>
+                        <ul style="list-style-type: disc;">
+                        <li>Own and fun mechanics</li>
+                        <li>Custom maps</li>
+                        <li>Daily Events</li>
+                        <li>Economy System</li>
+                        <li>House System</li>
+                        <li>Clans System</li>
+                        <li>Competent team</li>
+                        </ul>
+                        <br>
+                        <p style="text-shadow: none;">and much more</p>
+                </div>
+
+            </div>
+            
+
+            <div class="infoImage">
+                <img src="/img/person2.png" alt="">
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+
+        <div class="comments">
+
+            <div class="co">
+                <img src="/img/face1.png" alt="">
+                <p class="cotitle">Dor1toz</p>
+                <p class="cotext">The best server, great fun and the team helps whenever I need it!</p>
+            </div>
+
+            <div class="co">
+                <img src="/img/face2.png" alt="">
+                <p class="cotitle">Denise</p>
+                <p class="cotext">Fun, cute and cool. All my friends are playing here and let's make a clan, best server ever!</p>
+            </div>
+
+            <div class="co">
+                <img src="/img/face3.png" alt="">
+                <p class="cotitle">Wolf</p>
+                <p class="cotext">I will defeat them all, wait for me!</p>
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="barTwo"></div>
+        <div class="buttonsSocial">
+
+            <div class="butBox">
+
+                <div class="butIcon">
+                    <a href="#"><img src="/img/social1.png" alt=""></a>
+                </div>
+    
+                <div class="butIcon">
+                    <a href="#"><img src="/img/social2.png" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a href="#"><img src="/img/social3.png" alt=""></a>
+                </div>
+
+                <div class="butIcon">
+                    <a href="#"><img src="/img/social4.png" alt=""></a>
+                </div>
+
+                <a href="#">
+                    <div class="butBoxDiscord">
+
+                        <div class="butIconDiscord">
+                            <img src="/img/social5.png" alt="">
+                        </div>
+    
+                        <p>Enter the discord!</p> 
+                        <p>And stay on top of news, meet new people and have fun!</p>
+                    </div>
+                </a>
             </div>
         </div>
-
-        <div class="content">
-            <p>Integer et lectus sollicitudin, viverra leo iaculis, iaculis erat. Sed orci ante, mattis et elit nec, faucibus posuere nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur lobortis interdum nisi nec suscipit. Praesent in interdum diam. Ut tellus massa, consequat a eleifend a, viverra nec libero. Maecenas vel mollis magna. Morbi ornare cursus ornare. Sed quis nisi ultricies, feugiat arcu et, elementum lacus. Donec eleifend arcu non nunc pellentesque accumsan. Vivamus faucibus ante sed ipsum posuere, sit amet porttitor tortor posuere. Nunc interdum, dolor fermentum pharetra interdum, arcu tortor mollis ligula, eget pretium justo nibh id sem. Suspendisse eleifend odio fermentum, fermentum neque vitae, pharetra ipsum. In hac habitasse platea dictumst. Etiam imperdiet elit nunc, id scelerisque neque luctus eget.</p>
-
-            <p>Aenean vel est tristique, lacinia sapien ut, blandit odio. Nam id odio vel quam ullamcorper eleifend aliquam in magna. Integer convallis dui id neque pharetra consectetur. Sed gravida mollis aliquet. Fusce augue ex, aliquet vel turpis id, congue pellentesque mauris. Mauris faucibus, sapien at euismod aliquet, libero lacus rhoncus tortor, vitae laoreet elit ex in nisl. Maecenas nisi metus, porta non mattis ac, vehicula quis lacus. Quisque imperdiet diam quam, eget vulputate mauris varius ac. Mauris placerat, eros sed efficitur vestibulum, urna nibh varius lorem, eleifend consectetur ex augue nec nisi. Morbi mi lectus, efficitur vitae ligula ac, cursus dictum neque. Praesent tempus mollis dui eget iaculis. Suspendisse aliquam, odio quis porta malesuada, risus urna malesuada nibh, eu blandit elit nisi malesuada lectus.</p>
-
-            <p>Praesent convallis, tellus nec convallis venenatis, nunc magna cursus nibh, eu aliquet lacus augue a diam. Vivamus porta pulvinar enim, non rhoncus dolor auctor et. Duis vehicula lorem ac auctor auctor. Suspendisse at purus diam. Maecenas malesuada enim id orci fermentum, ac euismod nibh tristique. Nunc vitae viverra neque. Cras eleifend vehicula cursus. Cras ut pellentesque nisl. Curabitur cursus lectus tellus, a cursus odio consequat at. Ut suscipit magna libero, vel tristique turpis malesuada sed.</p>
-
-        </div>
+    
+        <footer>
+            <p>All rights reserved.</p>
+            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+        </footer>
     </div>
 
 </body>

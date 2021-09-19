@@ -7,6 +7,7 @@
 html,body{
     height: 100%;
     background-color: #2b2b2b;
+    
 }
 
 .container{
@@ -21,14 +22,14 @@ html,body{
 .bannerTop {
     background-image: url(/img/8.png);
     width: 100%;
-    height: 80vh;
+    height: 380px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .logo {
-    padding-top: 25vh;
+    padding-top: 3vh;
     display: flex;
     justify-content: center;
 }
@@ -89,27 +90,221 @@ html,body{
 .menu a{
     text-decoration: none;
     font-size: 30px;
-    color: goldenrod;
+    color: rgb(255, 180, 41);
     font-family: VampireWars;
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
-.content {
-    background-color: white;
-    padding: 20px;
-    margin: 40px;
-    border-radius: 10px;
+.barTwo{
+    height: 5px;
+    background-color: rgb(168, 93, 0);
 }
 
-.content p{
-    font-size: 17px;
-    padding-bottom: 10px;
+.homeGallery {
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
 }
 
-.rightBar{
-    margin: 30px;
+.homeGalleryTwo{
+}
+
+.textHGtwo{
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 190px;
+    font-family: VampireWars;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.textHGone{
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    padding-right: 40px;
+    padding-top: 190px;
+    font-family: VampireWars;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.hg1{
+    border-right: #2b2b2b solid 2.5px;
+    background-image: url(/img/hg1.png);
+    float: left;
+    height: 250px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 15px;
+
+}
+
+.hg2{
+    border-left: #2b2b2b solid 2.5px;
+    background-image: url(/img/hg2.png);
+    float: right;
+    height: 250px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+
+}
+
+.hg3{
+    border-top: #2b2b2b solid 5px;
+    background-image: url(/img/hg3.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.middleSection{
+    background-color: #2b2b2b;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bannermiddle{
+    height: 400px;
+    padding-top: 40px;
+    width: 50%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.infoServer {
+    text-align: center;
+    list-style-position: inside;
+    border-radius: 15px;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    margin-left: 40vh;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    list-style: none;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+    
+}
+
+.infoImage{
     float: right;
 }
 
-.discord {
+.infoImage img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 270px;
+    margin-right: 40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.comments{
+    background-color: orange;
+}
+
+.co{
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 30px;
+    background-color: orange;
+}
+
+.co img{
+    width: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.cotitle{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+}
+
+.cotext{
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Play', sans-serif;
+}
+
+.buttonsSocial{
+    background-image: url(/img/socialBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 200px;
+}
+
+.butBox{
+    padding: 70px;
+}
+
+.butIcon {
+    float: left;
+    margin-right: 80px;
+    
+}
+
+.butIcon img{
+    width: 64px;
+}
+
+.butBoxDiscord{
+    margin-top: -30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 15px;
+    float: right;
+}
+
+.butIconDiscord img{
+    width: 60px;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer p{
+    padding-top: 5px;
 }
