@@ -16,11 +16,11 @@ html,body{
 
 @font-face {
     font-family: VampireWars;
-    src: url(/font/Vampire\ Wars.ttf);
+    src: url(../font/Vampire\ Wars.ttf);
 }
 
 .bannerTop {
-    background-image: url(/img/8.png);
+    background-image: url(../img/8.png);
     width: 100%;
     height: 380px;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ html,body{
 
 .hg1{
     border-right: #2b2b2b solid 2.5px;
-    background-image: url(/img/hg1.png);
+    background-image: url(../img/hg1.png);
     float: left;
     height: 250px;
     width: 50%;
@@ -146,7 +146,7 @@ html,body{
 
 .hg2{
     border-left: #2b2b2b solid 2.5px;
-    background-image: url(/img/hg2.png);
+    background-image: url(../img/hg2.png);
     float: right;
     height: 250px;
     width: 50%;
@@ -159,7 +159,7 @@ html,body{
 
 .hg3{
     border-top: #2b2b2b solid 5px;
-    background-image: url(/img/hg3.png);
+    background-image: url(../img/hg3.png);
     height: 250px;
     background-repeat: no-repeat;
     background-position: center;
@@ -257,7 +257,7 @@ li {
 }
 
 .buttonsSocial{
-    background-image: url(/img/socialBanner.png);
+    background-image: url(../img/socialBanner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
