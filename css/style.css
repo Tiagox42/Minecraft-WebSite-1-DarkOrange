@@ -1,16 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html, body {
     height: 100%;
     background-color: #2b2b2b;
-    
 }
 
-.container{
+.container {
     width: 100%;
 }
 
@@ -38,7 +37,7 @@ html,body{
     height: 260px;
 }
 
-.bannerTop a{
+.bannerTop a {
     text-decoration: none;
 }
 
@@ -51,7 +50,7 @@ html,body{
     margin-top: -173px;
 }
 
-.serverIp{
+.serverIp {
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -60,11 +59,11 @@ html,body{
     color: black;
 }
 
-.serverIp span{
+.serverIp span {
     color: white;
 }
 
-.bar{
+.bar {
     height: 5px;
     background-color: rgb(168, 93, 0);
 }
@@ -77,7 +76,7 @@ html,body{
     margin-top: -90px;
 }
 
-.menu ul{
+.menu ul {
     text-align: center;
     padding: 20px;
 }
@@ -87,7 +86,7 @@ html,body{
     padding: 50px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     font-size: 30px;
     color: rgb(255, 180, 41);
@@ -95,7 +94,7 @@ html,body{
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
-.barTwo{
+.barTwo {
     height: 5px;
     background-color: rgb(168, 93, 0);
 }
@@ -105,13 +104,11 @@ html,body{
     margin-top: 70px;
     margin-left: 100px;
     margin-right: 100px;
-    
 }
 
-.homeGalleryTwo{
-}
+.homeGalleryTwo {}
 
-.textHGtwo{
+.textHGtwo {
     font-size: 30px;
     color: white;
     text-align: end;
@@ -121,7 +118,7 @@ html,body{
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
-.textHGone{
+.textHGone {
     font-size: 30px;
     color: white;
     text-align: end;
@@ -131,7 +128,7 @@ html,body{
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
-.hg1{
+.hg1 {
     border-right: #2b2b2b solid 2.5px;
     background-image: url(../img/hg1.png);
     float: left;
@@ -141,10 +138,9 @@ html,body{
     background-position: center;
     background-size: cover;
     border-top-left-radius: 15px;
-
 }
 
-.hg2{
+.hg2 {
     border-left: #2b2b2b solid 2.5px;
     background-image: url(../img/hg2.png);
     float: right;
@@ -154,10 +150,9 @@ html,body{
     background-position: center;
     background-size: cover;
     border-top-right-radius: 15px;
-
 }
 
-.hg3{
+.hg3 {
     border-top: #2b2b2b solid 5px;
     background-image: url(../img/hg3.png);
     height: 250px;
@@ -166,16 +161,15 @@ html,body{
     background-size: cover;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
 }
 
-.middleSection{
+.middleSection {
     background-color: #2b2b2b;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.bannermiddle{
+.bannermiddle {
     height: 400px;
     padding-top: 40px;
     width: 50%;
@@ -200,14 +194,13 @@ li {
     font-family: 'Play', sans-serif;
     list-style: none;
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
-    
 }
 
-.infoImage{
+.infoImage {
     float: right;
 }
 
-.infoImage img{
+.infoImage img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -217,11 +210,11 @@ li {
     margin-bottom: 40px;
 }
 
-.comments{
+.comments {
     background-color: orange;
 }
 
-.co{
+.co {
     float: left;
     width: 33.33%;
     height: 250px;
@@ -231,7 +224,7 @@ li {
     background-color: orange;
 }
 
-.co img{
+.co img {
     width: 80px;
     background-repeat: no-repeat;
     background-position: center;
@@ -240,7 +233,7 @@ li {
     padding-bottom: 10px;
 }
 
-.cotitle{
+.cotitle {
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -248,7 +241,7 @@ li {
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
-.cotext{
+.cotext {
     padding-top: 10px;
     color: black;
     font-weight: bold;
@@ -256,7 +249,7 @@ li {
     font-family: 'Play', sans-serif;
 }
 
-.buttonsSocial{
+.buttonsSocial {
     background-image: url(../img/socialBanner.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -264,21 +257,20 @@ li {
     height: 200px;
 }
 
-.butBox{
+.butBox {
     padding: 70px;
 }
 
 .butIcon {
     float: left;
     margin-right: 80px;
-    
 }
 
-.butIcon img{
+.butIcon img {
     width: 64px;
 }
 
-.butBoxDiscord{
+.butBoxDiscord {
     margin-top: -30px;
     color: white;
     font-size: 20px;
@@ -290,12 +282,12 @@ li {
     float: right;
 }
 
-.butIconDiscord img{
+.butIconDiscord img {
     width: 60px;
     float: right;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: darkcyan;
     color: white;
@@ -305,6 +297,6 @@ footer{
     padding-bottom: 15px;
 }
 
-footer p{
+footer p {
     padding-top: 5px;
 }

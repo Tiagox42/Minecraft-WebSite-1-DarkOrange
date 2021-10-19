@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +16,21 @@
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
     <script src="js/necessary.js"></script>
     <script src="js/core.js"></script>
+    <script src="js/buttons.js"></script>
     <title></title>
 </head>
+
 <body>
+    <script>
+        document.onload = list();
+    </script>
 
     <div class="container">
         <div class="serverIp">
-            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com" data-playercounter-status>...</span></b> <span></span> Players: <b><span data-playercounter-ip="play.cubecraft.net" data-playercounter-format="{online}/{max}">0</span></b></p>
+            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com"
+                        data-playercounter-status>...</span></b> <span></span> Players: <b><span
+                        data-playercounter-ip="play.cubecraft.net"
+                        data-playercounter-format="{online}/{max}">0</span></b></p>
         </div>
         <div class="bar"></div>
 
@@ -29,7 +38,9 @@
             <div class="logo">
                 <img src="/img/logo.png" alt="">
             </div>
-            <a href="#"><p>BattleCraft</p></a>
+            <a href="#">
+                <p>BattleCraft</p>
+            </a>
         </div>
         <div class="barTwo"></div>
         <div class="clear"></div>
@@ -51,22 +62,52 @@
 
         <div class="article">
 
-            <p>Information</p>
+            <p class="articleTitle">Information</p>
 
-            <p>Sed accumsan quam eget feugiat placerat. Maecenas in dui ligula. Integer id mi at leo ultrices vulputate eu id lorem. In iaculis vulputate tristique. Aliquam euismod aliquam ornare. Nam ac tincidunt metus. Vestibulum et sapien non libero vulputate finibus. Curabitur at ipsum auctor, aliquam dui a, sodales velit</p>
+            <p class="articleDescription">Sed accumsan quam eget feugiat placerat. Maecenas in dui ligula. Integer id mi at leo ultrices vulputate
+                eu id lorem. In iaculis vulputate tristique. Aliquam euismod aliquam ornare. Nam ac tincidunt metus.
+                Vestibulum et sapien non libero vulputate finibus. Curabitur at ipsum auctor, aliquam dui a, sodales
+                velit</p>
 
             <div class="infoblock">
                 <div class="barRed"></div>
-
-                <p>Rules</p> <input type="button" value="+">
-
+                <div class="infoblockText">
+                    <p class="infobTitle">Rules</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis. Suspendisse vitae nunc pharetra.</p>
+                    <p class="infobContent" id="content1">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor, elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper mattis. Ut tempor felis in enim semper, eget mollis lacus sodales. Sed condimentum dapibus fringilla. Donec arcu dolor, accumsan quis lacinia tempus, luctus sed nisl. Suspendisse accumsan accumsan lacus, in luctus metus aliquet eu. Nullam vel elit ex.
+                    </p>
+                </div>
+                <input class="infoblockButtonRed" type="button" value="+" onclick="openContent1()" id="button1" >
             </div>
 
             <div class="infoblock">
-
-                <p>Rules</p> <input type="button" value="+">
-
+                <div class="barRed"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">PVP</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis. Suspendisse vitae nunc pharetra.</p>
+                </div>
+                <input class="infoblockButtonRed" type="button" value="+">
             </div>
+
+            <div class="infoblock">
+                <div class="barGreen"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">Economy System</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.</p>
+                </div>
+                <input class="infoblockButtonGreen" type="button" value="+">
+            </div>
+
+            <div class="infoblock">
+                <div class="barYellow"></div>
+                <div class="infoblockText">
+                    <p class="infobTitle">House System</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.</p>
+                </div>
+                <input class="infoblockButtonYellow" type="button" value="+">
+            </div>
+
 
 
         </div>
@@ -74,7 +115,7 @@
         <div class="extra">
 
         </div>
-        
+
 
         <div class="clear"></div>
         <footer>
@@ -84,4 +125,5 @@
     </div>
 
 </body>
+
 </html>
