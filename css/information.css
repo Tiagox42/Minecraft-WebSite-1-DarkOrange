@@ -27,8 +27,6 @@
 }
 
 .extra {
-    min-height: 1000px;
-    background-color: white;
     margin-top: 60px;
     margin-right: 40px;
     margin-bottom: 80px;
@@ -161,4 +159,16 @@
 
 .infoblockButtonYellow:hover {
     background-color: darkgoldenrod;
+}
+
+.tutorialVideo {
+    padding: 20px;
+}
+
+.video{
+    display: inline-block;
+}
+
+.video iframe{
+    width: 500px;
 }

@@ -94,6 +94,10 @@ html, body {
     text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
 }
 
+.menu a:hover {
+    color: white;
+}
+
 .barTwo {
     height: 5px;
     background-color: rgb(168, 93, 0);
