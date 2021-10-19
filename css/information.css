@@ -21,8 +21,9 @@
 }
 
 .articleDescription {
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 20px 10px 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .extra {
@@ -62,7 +63,28 @@
 .infobContent {
     display: none;
     padding-top: 20px;
-    font-size: 17px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barPurple {
+    height: 20px;
+    background-color: purple;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.infoblockButtonPurple {
+    padding: 5px 17px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: purple;
+    border: none;
+    margin: 10px;
+    margin-top: -30px;
+    margin-left: 95%;
+    color: white;
 }
 
 .barRed {
@@ -123,6 +145,10 @@
     margin-top: -30px;
     margin-left: 95%;
     color: white;
+}
+
+.infoblockButtonPurple:hover {
+    background-color: rgb(68, 0, 68);
 }
 
 .infoblockButtonRed:hover {

@@ -13,18 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
-    <script src="js/necessary.js"></script>
     <script src="js/core.js"></script>
+    <script src="js/necessary.js"></script>
     <script src="js/buttons.js"></script>
-    <title></title>
 </head>
 
 <body>
-    <script>
-        document.onload = list();
-    </script>
-
     <div class="container">
         <div class="serverIp">
             <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com"
@@ -36,7 +32,7 @@
 
         <div class="bannerTop">
             <div class="logo">
-                <img src="/img/logo.png" alt="">
+                <img src="img/logo.png" alt="">
             </div>
             <a href="#">
                 <p>BattleCraft</p>
@@ -64,48 +60,96 @@
 
             <p class="articleTitle">Information</p>
 
-            <p class="articleDescription">Sed accumsan quam eget feugiat placerat. Maecenas in dui ligula. Integer id mi at leo ultrices vulputate
+            <p class="articleDescription">Sed accumsan quam eget feugiat placerat. Maecenas in dui ligula. Integer id mi
+                at leo ultrices vulputate
                 eu id lorem. In iaculis vulputate tristique. Aliquam euismod aliquam ornare. Nam ac tincidunt metus.
                 Vestibulum et sapien non libero vulputate finibus. Curabitur at ipsum auctor, aliquam dui a, sodales
                 velit</p>
 
             <div class="infoblock">
-                <div class="barRed"></div>
+                <div class="barPurple"></div>
                 <div class="infoblockText">
                     <p class="infobTitle">Rules</p>
-                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis. Suspendisse vitae nunc pharetra.</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.
+                        Suspendisse vitae nunc pharetra.</p>
                     <p class="infobContent" id="content1">
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor, elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper mattis. Ut tempor felis in enim semper, eget mollis lacus sodales. Sed condimentum dapibus fringilla. Donec arcu dolor, accumsan quis lacinia tempus, luctus sed nisl. Suspendisse accumsan accumsan lacus, in luctus metus aliquet eu. Nullam vel elit ex.
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+                        scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut
+                        malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non
+                        magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget
+                        tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor,
+                        elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper mattis. Ut tempor felis in enim semper, eget mollis lacus
+                        sodales. Sed condimentum dapibus fringilla. Donec arcu dolor, accumsan quis lacinia tempus,
+                        luctus sed nisl. Suspendisse accumsan accumsan lacus, in luctus metus aliquet eu. Nullam vel
+                        elit ex.
+                        <img style="height: 200px;"
+                            src="https://i.pinimg.com/originals/d7/70/5b/d7705b4b6c3dbf719523b248ef646a0f.jpg" alt="">
                     </p>
                 </div>
-                <input class="infoblockButtonRed" type="button" value="+" onclick="openContent1()" id="button1" >
+                <input class="infoblockButtonPurple" type="button" value="+" onclick="openContent1()" id="button1">
             </div>
 
             <div class="infoblock">
                 <div class="barRed"></div>
                 <div class="infoblockText">
                     <p class="infobTitle">PVP</p>
-                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis. Suspendisse vitae nunc pharetra.</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.
+                        Suspendisse vitae nunc pharetra.</p>
+                    <p class="infobContent" id="content2">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+                        scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut
+                        malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non
+                        magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget
+                        tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor,
+                        elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper
+                        mattis. Ut tempor felis in enim semper, eget mollis lacus sodales. Sed condimentum dapibus
+                        fringilla. Donec arcu dolor, accumsan quis lacinia tempus, luctus sed nisl. Suspendisse accumsan
+                        accumsan lacus, in luctus metus aliquet eu. Nullam vel elit ex.
+                    </p>
                 </div>
-                <input class="infoblockButtonRed" type="button" value="+">
+                <input class="infoblockButtonRed" type="button" value="+" onclick="openContent2()" id="button2">
             </div>
 
             <div class="infoblock">
                 <div class="barGreen"></div>
                 <div class="infoblockText">
                     <p class="infobTitle">Economy System</p>
-                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.
+                    </p>
+                    <p class="infobContent" id="content3">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+                        scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut
+                        malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non
+                        magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget
+                        tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor,
+                        elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper
+                        mattis. Ut tempor felis in enim semper, eget mollis lacus sodales. Sed condimentum dapibus
+                        fringilla. Donec arcu dolor, accumsan quis lacinia tempus, luctus sed nisl. Suspendisse accumsan
+                        accumsan lacus, in luctus metus aliquet eu. Nullam vel elit ex.
+                    </p>
                 </div>
-                <input class="infoblockButtonGreen" type="button" value="+">
+                <input class="infoblockButtonGreen" type="button" value="+" onclick="openContent3()" id="button3">
             </div>
 
             <div class="infoblock">
                 <div class="barYellow"></div>
                 <div class="infoblockText">
                     <p class="infobTitle">House System</p>
-                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.</p>
+                    <p class="infobDescription"> Sed felis magna, porta quis purus eget, suscipit sollicitudin turpis.
+                    </p>
+                    <p class="infobContent" id="content4">
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+                        scelerisque tincidunt massa, sed aliquet nunc viverra nec. In hac habitasse platea dictumst. Ut
+                        malesuada, quam in mattis sollicitudin, lacus turpis faucibus mi, sed accumsan purus arcu non
+                        magna. Praesent blandit rhoncus dapibus. Cras arcu lectus, aliquam id tempus in, pharetra eget
+                        tortor. Curabitur et mi in leo elementum finibus. Phasellus commodo, dui sed laoreet tempor,
+                        elit felis congue libero, vehicula elementum felis risus et leo. Ut eget ex vitae ligula semper
+                        mattis. Ut tempor felis in enim semper, eget mollis lacus sodales. Sed condimentum dapibus
+                        fringilla. Donec arcu dolor, accumsan quis lacinia tempus, luctus sed nisl. Suspendisse accumsan
+                        accumsan lacus, in luctus metus aliquet eu. Nullam vel elit ex.
+                    </p>
                 </div>
-                <input class="infoblockButtonYellow" type="button" value="+">
+                <input class="infoblockButtonYellow" type="button" value="+" onclick="openContent4()" id="button4">
             </div>
 
 
