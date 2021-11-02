@@ -12,6 +12,7 @@
     float: left;
     width: 67%;
     border-top: solid 5px rgb(212, 117, 0);
+    border-bottom: solid 5px rgb(212, 117, 0);
 }
 
 .articleTitle {
