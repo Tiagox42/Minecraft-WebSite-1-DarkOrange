@@ -1,0 +1,85 @@
+* {
+    font-family: 'Play', sans-serif;
+}
+
+.article {
+    min-height: 1000px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    width: 80%;
+    border-top: solid 5px rgb(212, 117, 0);
+    border-bottom: solid 5px rgb(212, 117, 0);
+}
+
+.articleTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.articleDescription {
+    font-size: 16px;
+    padding: 0px 20px 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.extra {}
+
+.frames {
+    text-align: center;
+}
+
+.itemframe {
+    display: inline-block;
+    margin: 30px 30px 20px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 207);
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.itemframeTitle {
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 0 #212121, -2px 0 0 #212121, 0 2px 0 #212121, 0 -2px 0 #212121, 1px 1px #212121, -1px -1px 0 #212121, 1px -1px 0 #212121, -1px 1px 0 #212121;
+
+}
+
+.itemframeImage img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.itemframeText {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.itemframeButton {
+    background-color: rgb(58, 255, 58);
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(45, 199, 45);
+    border-radius: 10px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

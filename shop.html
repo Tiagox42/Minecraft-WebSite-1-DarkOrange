@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>BattleCraft - Shop</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/necessary.js"></script>
+    <script src="js/shop.js"></script>
+
+    <script>
+        document.onload = start();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="serverIp">
+            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com"
+                        data-playercounter-status>...</span></b> <span></span> Players: <b><span
+                        data-playercounter-ip="play.cubecraft.net"
+                        data-playercounter-format="{online}/{max}">0</span></b></p>
+        </div>
+        <div class="bar"></div>
+
+        <div class="bannerTop">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <a href="#">
+                <p>BattleCraft</p>
+            </a>
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./news.html">News</a></li>
+                    <li><a href="./information.html">Information</a></li>
+                    <li><a style="color: white;" href="./shop.html">Shop</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="article">
+
+            <h1 class="articleTitle">SERVER SHOP</h1>
+
+            <p class="articleDescription">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in tristique ex.
+                Nam fermentum ultricies odio vitae aliquam. Pellentesque ligula tortor, porta elementum neque a, laoreet
+                congue libero. Integer quis augue odio.
+            </p>
+
+            <div class="frames">
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 1
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_br_gamepedia/images/1/11/Tronco_de_Carvalho.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip1()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 2
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/48/Coal_Ore_JE5_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip2()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 3
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/19/Iron_Ore_JE6_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip3()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 4
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Gold_Ore_JE7_BE4.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip4()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 5
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a9/Emerald_Ore_JE4_BE3.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip5()">
+                </div>
+
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP 6
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/29/Diamond_Ore_JE5_BE5.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        1x Diamond, 2x Diamond, 3x Gold_Ingot, 4x Grass.
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip6()">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="extra">
+
+        </div>
+
+
+        <div class="clear"></div>
+        <footer>
+            <p>All rights reserved.</p>
+            <p>Website created by <a href="https://github.com/Tiagox42"><strong>Tiagox42</strong></a> / Doritoz#2416</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+* {
+    font-family: 'Play', sans-serif;
+}
+
+.newsArticle {
+    min-height: 500px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    width: 60%;
+    border-top: solid 5px rgb(212, 117, 0);
+    border-bottom: solid 5px rgb(212, 117, 0);
+}
+
+.articleTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.articleDescription {
+    font-size: 16px;
+    padding: 0px 20px 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.team {
+    text-align: center;
+}
+
+.teamPlayers {
+    display: inline-block;
+    margin: 30px;
+}
+
+.teamImage {
+    
+}
+
+.adm {
+    vertical-align: 25px;
+    font-size: 30px;
+    color: red;
+}
+
+.modder {
+    vertical-align: 25px;
+    font-size: 30px;
+    color: greenyellow;
+}
+
+.helper {
+    vertical-align: 25px;
+    font-size: 30px;
+    color: cyan;
+}
+
+.builder {
+    vertical-align: 25px;
+    font-size: 30px;
+    color: goldenrod;
+}
