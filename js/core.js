@@ -7,7 +7,7 @@ window.onload = function(){
     let title = 'BattleCraft';
 
     //Server Ip (counter)
-    var serverIp = 'mc.hypixel.net';
+    var serverIp = 'play.foxcraft.net';
 
     //Banner image (url) 
     var bannerTop = 'https://i.imgur.com/k0MtSCb.png';
@@ -54,8 +54,8 @@ window.onload = function(){
 
 
     document.getElementById('title').innerHTML = title;
-    document.getElementById('statusOnline').setAttribute('data-playercounter-ip', serverIp);
-    document.getElementById('statusOnline2').setAttribute('data-playercounter-ip', serverIp);
+    document.getElementById('statusOnline').setAttribute('data-playercounter-ip', 'serverIp');
+    document.getElementById('statusOnline2').setAttribute('data-playercounter-ip', 'serverIp');
     document.getElementById('bannerTop').style.backgroundImage = "url("+bannerTop+")";
     document.getElementById('image_Gfirst').style.backgroundImage = "url("+image_Gfirst+")";
     document.getElementById('text_Gfirst').innerHTML = text_Gfirst;
@@ -79,4 +79,5 @@ window.onload = function(){
     document.getElementById('urlYoutube').href = urlYoutube;
     document.getElementById('discordInvite').href = discordInvite;
     document.getElementById('bannerSocialImage').style.backgroundImage = "url("+bannerSocialImage+")";
+    
 }
