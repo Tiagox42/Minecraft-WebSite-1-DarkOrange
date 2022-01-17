@@ -18,6 +18,7 @@
     <script src="js/core.js"></script>
     <script src="js/necessary.js"></script>
     <script>
+        document.onload = configs();
         document.onload = start();
     </script>
 </head>
@@ -26,19 +27,19 @@
 
     <div class="container">
         <div class="serverIp">
-            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com"
+            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="mc.hypixel.net"
                         data-playercounter-status>...</span></b> <span></span> Players: <b><span
-                        data-playercounter-ip="play.cubecraft.net"
+                        id="statusOnline2" data-playercounter-ip="mc.hypixel.net"
                         data-playercounter-format="{online}/{max}">0</span></b></p>
         </div>
         <div class="bar"></div>
 
-        <div class="bannerTop">
+        <div id="bannerTop" class="bannerTop">
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
             <a href="#">
-                <p>BattleCraft</p>
+                <p id="title"></p>
             </a>
         </div>
         <div class="barTwo"></div>
@@ -62,12 +63,12 @@
 
             <div class="homeGalleryTwo">
 
-                <div class="hg1">
-                    <p class="textHGtwo">Special Items</p>
+                <div id="image_Gfirst" class="hg1">
+                    <p id="text_Gfirst" class="textHGtwo"></p>
                 </div>
 
-                <div class="hg2">
-                    <p class="textHGtwo">Economy</p>
+                <div id="image_Gsecond" class="hg2">
+                    <p id="text_Gsecond" class="textHGtwo"></p>
                 </div>
 
             </div>
@@ -76,8 +77,8 @@
 
             <div class="homeGalleryOne">
 
-                <div class="hg3">
-                    <p class="textHGone">Great community</p>
+                <div id="image_Gtrird" class="hg3">
+                    <p id="text_Gtrird" class="textHGone"></p>
                 </div>
 
             </div>
