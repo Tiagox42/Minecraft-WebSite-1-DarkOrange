@@ -18,7 +18,6 @@
     <script src="js/core.js"></script>
     <script src="js/necessary.js"></script>
     <script>
-        document.onload = configs();
         document.onload = start();
     </script>
 </head>
@@ -38,7 +37,7 @@
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
-            <a href="#">
+            <a href="./index.html">
                 <p id="title"></p>
             </a>
         </div>
@@ -90,7 +89,7 @@
             <div class="bannermiddle">
 
                 <div class="infoServer">
-                    <p style="color: #ffcc00;">This server is based on <strong><span>Full PVP</span></strong> model</p>
+                    <p style="color: #ffcc00;">This server is based on <strong><span id="typeServer">Full PVP</span></strong> model</p>
                     <br>
                     <p style="color: red;">We have:</p>
                     <br>
@@ -121,48 +120,48 @@
         <div class="comments">
 
             <div class="co">
-                <img src="img/face1.png" alt="">
-                <p class="cotitle">Dor1toz</p>
-                <p class="cotext">The best server, great fun and the team helps whenever I need it!</p>
+                <img id="firstPlayerImage" src="" alt="">
+                <p id="firstPlayerName" class="cotitle">Dor1toz</p>
+                <p id="firstPlayerComment" class="cotext">The best server, great fun and the team helps whenever I need it!</p>
             </div>
 
             <div class="co">
-                <img src="img/face2.png" alt="">
-                <p class="cotitle">Denise</p>
-                <p class="cotext">Fun, cute and cool. All my friends are playing here and let's make a clan, best server
+                <img id="secondPlayerImage" src="" alt="">
+                <p id="secondPlayerName" class="cotitle">Denise</p>
+                <p id="secondPlayerComment" class="cotext">Fun, cute and cool. All my friends are playing here and let's make a clan, best server
                     ever!</p>
             </div>
 
             <div class="co">
-                <img src="img/face3.png" alt="">
-                <p class="cotitle">Wolf</p>
-                <p class="cotext">I will defeat them all, wait for me!</p>
+                <img id="trirdPlayerImage" src="" alt="">
+                <p id="trirdPlayerName" class="cotitle">Wolf</p>
+                <p id="trirdtPlayerComment" class="cotext">I will defeat them all, wait for me!</p>
             </div>
 
         </div>
         <div class="clear"></div>
         <div class="barTwo"></div>
-        <div class="buttonsSocial">
+        <div id="bannerSocialImage" class="buttonsSocial">
 
             <div class="butBox">
 
                 <div class="butIcon">
-                    <a href="#"><img src="img/social1.png" alt=""></a>
+                    <a id="urlFacebook" href="#"><img src="img/social1.png" alt=""></a>
                 </div>
 
                 <div class="butIcon">
-                    <a href="#"><img src="img/social2.png" alt=""></a>
+                    <a id="urlTwiiter" href="#"><img src="img/social2.png" alt=""></a>
                 </div>
 
                 <div class="butIcon">
-                    <a href="#"><img src="img/social3.png" alt=""></a>
+                    <a id="urlInstagram" href="#"><img src="img/social3.png" alt=""></a>
                 </div>
 
                 <div class="butIcon">
-                    <a href="#"><img src="img/social4.png" alt=""></a>
+                    <a id="urlYoutube" href="#"><img src="img/social4.png" alt=""></a>
                 </div>
 
-                <a href="#">
+                <a id="discordInvite" href="#">
                     <div class="butBoxDiscord">
 
                         <div class="butIconDiscord">

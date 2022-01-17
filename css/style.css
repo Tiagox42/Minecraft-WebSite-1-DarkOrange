@@ -110,8 +110,6 @@ html, body {
     margin-right: 100px;
 }
 
-.homeGalleryTwo {}
-
 .textHGtwo {
     font-size: 30px;
     color: white;
@@ -254,7 +252,7 @@ li {
 }
 
 .buttonsSocial {
-    background-image: url(../img/socialBanner.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
