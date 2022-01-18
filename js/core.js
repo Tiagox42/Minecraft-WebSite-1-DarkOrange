@@ -1,6 +1,5 @@
 window.onload = function(){
 
-
     // GENERAL CONFIGS
 
     //Site title
@@ -20,7 +19,7 @@ window.onload = function(){
     var text_Gsecond = 'Economy'
     var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png'
     //Third text / image (url)
-    var text_Gtrird = 'Great Community' 
+    var text_Gtrird = 'Great Community'
     var image_Gtrird = 'https://i.imgur.com/7JP74WT.png'
     //--------------------------------------------
 
@@ -48,28 +47,23 @@ window.onload = function(){
     var discordInvite = "https://github.com/Tiagox42";
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png"
 
-
-
-
-
-
     document.getElementById('title').innerHTML = title;
-    document.getElementById('statusOnline').setAttribute('data-playercounter-ip', 'serverIp');
-    document.getElementById('statusOnline2').setAttribute('data-playercounter-ip', 'serverIp');
-    document.getElementById('bannerTop').style.backgroundImage = "url("+bannerTop+")";
-    document.getElementById('image_Gfirst').style.backgroundImage = "url("+image_Gfirst+")";
+    document.getElementById('statusOnline').setAttribute('data-playercounter-ip', serverIp);
+    document.getElementById('statusOnline2').setAttribute('data-playercounter-ip', serverIp);
+    document.getElementById('bannerTop').style.backgroundImage = "url(" + bannerTop + ")";
+    document.getElementById('image_Gfirst').style.backgroundImage = "url(" + image_Gfirst + ")";
     document.getElementById('text_Gfirst').innerHTML = text_Gfirst;
-    document.getElementById('image_Gsecond').style.backgroundImage = "url("+image_Gsecond+")";
+    document.getElementById('image_Gsecond').style.backgroundImage = "url(" + image_Gsecond + ")";
     document.getElementById('text_Gsecond').innerHTML = text_Gsecond;
-    document.getElementById('image_Gtrird').style.backgroundImage = "url("+image_Gtrird+")";
+    document.getElementById('image_Gtrird').style.backgroundImage = "url(" + image_Gtrird + ")";
     document.getElementById('text_Gtrird').innerHTML = text_Gtrird;
     document.getElementById('typeServer').innerHTML = typeServer;
     document.getElementById('firstPlayerName').innerHTML = firstPlayerName;
     document.getElementById('secondPlayerName').innerHTML = secondPlayerName;
     document.getElementById('trirdPlayerName').innerHTML = trirdPlayerName;
-    document.getElementById('firstPlayerImage').src = "https://cravatar.eu/helmavatar/"+firstPlayerName+"/190.png";
-    document.getElementById('secondPlayerImage').src = "https://cravatar.eu/helmavatar/"+secondPlayerName+"/190.png";
-    document.getElementById('trirdPlayerImage').src = "https://cravatar.eu/helmavatar/"+trirdPlayerName+"/190.png";
+    document.getElementById('firstPlayerImage').src = "https://cravatar.eu/helmavatar/" + firstPlayerName + "/190.png";
+    document.getElementById('secondPlayerImage').src = "https://cravatar.eu/helmavatar/" + secondPlayerName + "/190.png";
+    document.getElementById('trirdPlayerImage').src = "https://cravatar.eu/helmavatar/" + trirdPlayerName + "/190.png";
     document.getElementById('firstPlayerComment').innerHTML = firstPlayerComment;
     document.getElementById('secondPlayerComment').innerHTML = secondPlayerComment;
     document.getElementById('trirdtPlayerComment').innerHTML = trirdtPlayerComment;
@@ -78,6 +72,19 @@ window.onload = function(){
     document.getElementById('urlInstagram').href = urlInstagram;
     document.getElementById('urlYoutube').href = urlYoutube;
     document.getElementById('discordInvite').href = discordInvite;
-    document.getElementById('bannerSocialImage').style.backgroundImage = "url("+bannerSocialImage+")";
-    
+    document.getElementById('bannerSocialImage').style.backgroundImage = "url(" + bannerSocialImage + ")";
+
+
+
+    function start() {
+        setTimeout(() => {
+            var status = document.getElementById('statusOnline');
+            if (status.textContent == 'online') {
+                status.style.color = 'green'
+            } else {
+                status.style.color = 'red'
+            }
+        }, 2000);
+    }
+
 }
