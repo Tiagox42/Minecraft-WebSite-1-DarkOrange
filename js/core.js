@@ -101,3 +101,8 @@ function copyIp() {
     let ip = document.getElementById('serverIpText').innerHTML;
     navigator.clipboard.writeText(ip);
 }
+
+function logoClick() {
+    let ip = document.getElementById('serverIpText').innerHTML;
+    navigator.clipboard.writeText(ip);
+}
