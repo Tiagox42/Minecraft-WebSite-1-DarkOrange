@@ -59,7 +59,23 @@ html, body {
     color: black;
 }
 
-.serverIp span {
+.serverStatus {
+    font-weight: bold;
+    
+}
+
+.playersOn {
+    font-weight: bold;
+    color: blue;
+}
+
+.playersMax {
+    font-weight: bold;
+    color: blue;
+}
+
+.serverIpText {
+    font-weight: bold;
     color: white;
 }
 

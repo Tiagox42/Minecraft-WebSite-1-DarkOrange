@@ -1,4 +1,4 @@
-window.onload = function(){
+window.onload = function () {
 
     // GENERAL CONFIGS
 
@@ -48,8 +48,6 @@ window.onload = function(){
     var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png"
 
     document.getElementById('title').innerHTML = title;
-    document.getElementById('statusOnline').setAttribute('data-playercounter-ip', serverIp);
-    document.getElementById('statusOnline2').setAttribute('data-playercounter-ip', serverIp);
     document.getElementById('bannerTop').style.backgroundImage = "url(" + bannerTop + ")";
     document.getElementById('image_Gfirst').style.backgroundImage = "url(" + image_Gfirst + ")";
     document.getElementById('text_Gfirst').innerHTML = text_Gfirst;
@@ -73,18 +71,33 @@ window.onload = function(){
     document.getElementById('urlYoutube').href = urlYoutube;
     document.getElementById('discordInvite').href = discordInvite;
     document.getElementById('bannerSocialImage').style.backgroundImage = "url(" + bannerSocialImage + ")";
+    document.getElementById('serverIpText').innerHTML = serverIp;
 
+    MinecraftAPI.getServerStatus('play.foxcraft.net', {
+        port: 25565 // optional, only if you need a custom port
+    }, function (err, status) {
+        if (err) {
+            return document.querySelector('.server-status').innerHTML = 'Error loading status';
+        }
 
+        // you can change these to your own message!
+        document.getElementById('serverStatus').innerHTML = status.online ? 'Online' : 'Offline';
+        document.getElementById('playersOn').innerHTML = status.players.now;
+        document.getElementById('playersMax').innerHTML = status.players.max;
+    });
 
-    function start() {
-        setTimeout(() => {
-            var status = document.getElementById('statusOnline');
-            if (status.textContent == 'online') {
-                status.style.color = 'green'
-            } else {
-                status.style.color = 'red'
-            }
-        }, 2000);
-    }
+    setTimeout(() => {
+        var status = document.getElementById('serverStatus');
+        if (status.textContent == 'Online') {
+            status.style.color = 'green'
+        } else {
+            status.style.color = 'red'
+        }
+    }, 2000);
 
+}
+
+function copyIp() {
+    let ip = document.getElementById('serverIpText').innerHTML;
+    navigator.clipboard.writeText(ip);
 }

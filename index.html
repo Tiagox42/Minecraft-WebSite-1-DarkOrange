@@ -14,17 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
     <script src="js/core.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="serverIp">
-            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="play.foxcraft.net"
-                        data-playercounter-status>...</span></b> <span></span> Players: <b><span
-                        id="statusOnline2" data-playercounter-ip="play.foxcraft.net"
-                        data-playercounter-format="{online}/{max}">0</span></b></p>
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
         </div>
         <div class="bar"></div>
 
