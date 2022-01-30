@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# Minecraft-WebSite DarkOrange
 
 Simple website made for Minecraft servers!
 
@@ -12,6 +12,8 @@ Characteristics:
  2. Bar with online or offline server status with player numbers.
  3. Easy configuration file with the main adjustments you should make to the website. (found in js/core.js folder)
  4. Auto responsive
+
+Online demo: https://tiagox42.github.io/Minecraft-WebSite/index.html
 
 Some images:
 
