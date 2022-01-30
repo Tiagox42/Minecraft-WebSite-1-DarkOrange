@@ -13,7 +13,7 @@ Characteristics:
  3. Easy configuration file with the main adjustments you should make to the website. (found in js/core.js folder)
  4. Auto responsive
 
-Online demo: https://tiagox42.github.io/Minecraft-WebSite/index.html
+Online demo: https://tiagox42.github.io/Minecraft-WebSite-1-DarkOrange/
 
 Some images:
 
