@@ -1,5 +1,26 @@
-# Minecraft-WebSite
-Website for minecraft servers, the website has a configuration file where you can change the website content easily.
+# Welcome to StackEdit!
+
+Simple website made for Minecraft servers!
+
+The project was made only with HTML, CSS and JavaScript, without using frameworks.
+
+The project is simple, depending on the result obtained in the community, I can continue developing it and fixing problems.
+
+Characteristics:
+
+ 1. Five pages to customize and adapt to the server.
+ 2. Bar with online or offline server status with player numbers.
+ 3. Easy configuration file with the main adjustments you should make to the website. (found in js/core.js folder)
+ 4. Auto responsive
+
+Some images:
+
+![enter image description here](https://i.imgur.com/CAvlEAL.png)
+![enter image description here](https://i.imgur.com/e7kQxCD.png)
+![enter image description here](https://i.imgur.com/4Jjkhfv.png)
 
 
-Demo: https://tiagox42.github.io/Minecraft-WebSite/
+
+***It is not allowed to sell or post the files elsewhere, if you use the website on your server please give credit to this github, I intend to become a developer and spreading my work would help me a lot.***
+
+**My discord for contact: Doritoz#2416**
