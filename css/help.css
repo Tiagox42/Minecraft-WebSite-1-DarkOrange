@@ -38,9 +38,7 @@
     margin: 30px;
 }
 
-.teamImage {
-    
-}
+.teamImage {}
 
 .adm {
     vertical-align: 25px;
@@ -64,4 +62,24 @@
     vertical-align: 25px;
     font-size: 30px;
     color: goldenrod;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .newsArticle {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .newsArticle {
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+    }
+
 }

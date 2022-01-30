@@ -166,10 +166,102 @@
     padding: 20px;
 }
 
-.video{
+.video {
     display: inline-block;
 }
 
-.video iframe{
+.video iframe {
     width: 500px;
+}
+
+@media screen and (max-width: 1450px) {
+
+    .extra {
+        margin-right: 20px;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 93%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 93%;
+    }
+
+    .tutorialVideo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 975px) {
+
+    .article {
+        margin-left: 5%;
+        float: none;
+        width: 90%;
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 90%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 90%;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .article {
+        margin-left: 0%;
+        float: none;
+        width: 100%;
+    }
+
+    .extra {
+        display: none;
+    }
+
+    .infoblockButtonPurple {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonRed {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonGreen {
+        margin-left: 89%;
+    }
+
+    .infoblockButtonYellow {
+        margin-left: 89%;
+    }
+
+    .video iframe{
+        width: auto;
+        height: auto;
+    }
+
 }
