@@ -1,42 +1,43 @@
 window.onload = function () {
 
-    // GENERAL CONFIGS
+    // GENERAL CONFIGS v0.1
 
     //Site title
     let title = 'BattleCraft';
 
     //Server Ip (counter)
     var serverIp = 'play.foxcraft.net';
+    var serverIpPort = 25565;
 
     //Banner image (url) 
     var bannerTop = 'https://i.imgur.com/k0MtSCb.png';
 
     //--------------- Home Gallery ---------------
     //Firs text / image (url)
-    var text_Gfirst = 'Special Items'
-    var image_Gfirst = 'https://i.imgur.com/OkfQb7q.png'
+    var text_Gfirst = 'Special Items';
+    var image_Gfirst = 'https://i.imgur.com/OkfQb7q.png';
     //Second text / image (url)
     var text_Gsecond = 'Economy'
-    var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png'
+    var image_Gsecond = 'https://i.imgur.com/XU4KHgV.png';
     //Third text / image (url)
     var text_Gtrird = 'Great Community'
-    var image_Gtrird = 'https://i.imgur.com/7JP74WT.png'
+    var image_Gtrird = 'https://i.imgur.com/7JP74WT.png';
     //--------------------------------------------
 
     //Type Server (FullPVP, MiniGame, Survival, and others...)
-    var typeServer = 'Full PVP'
+    var typeServer = 'Full PVP';
 
     //--------------- Home Gallery ---------------
     // Image automatically changes according to the name :)
     //Firs player nick / comment text
-    var firstPlayerName = 'Dor1toz'
-    var firstPlayerComment = "The best server, great fun and the team helps whenever I need it!"
+    var firstPlayerName = 'Dor1toz';
+    var firstPlayerComment = "The best server, great fun and the team helps whenever I need it!";
     //Second player nick / comment text
-    var secondPlayerName = 'Tester'
-    var secondPlayerComment = "Fun, cute and cool. All my friends are playing here and let's make a clan, best server ever"
+    var secondPlayerName = 'Tester';
+    var secondPlayerComment = "Fun, cute and cool. All my friends are playing here and let's make a clan, best server ever";
     //Third player nick / comment text
-    var trirdPlayerName = 'Notch'
-    var trirdtPlayerComment = "I will defeat them all, wait for me!"
+    var trirdPlayerName = 'Notch';
+    var trirdtPlayerComment = "I will defeat them all, wait for me!";
     //--------------------------------------------
 
     //Social media links / banner (url)
@@ -45,7 +46,26 @@ window.onload = function () {
     var urlInstagram = "https://www.instagram.com/tdantas42/";
     var urlYoutube = "https://www.youtube.com/user/Tg42x/videos";
     var discordInvite = "https://github.com/Tiagox42";
-    var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png"
+    var bannerSocialImage = "https://i.imgur.com/oSbKvAT.png";
+
+
+    //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
+    //===============================================================================================================
 
     document.getElementById('title').innerHTML = title;
     document.getElementById('bannerTop').style.backgroundImage = "url(" + bannerTop + ")";
@@ -73,14 +93,13 @@ window.onload = function () {
     document.getElementById('bannerSocialImage').style.backgroundImage = "url(" + bannerSocialImage + ")";
     document.getElementById('serverIpText').innerHTML = serverIp;
 
-    MinecraftAPI.getServerStatus('play.foxcraft.net', {
-        port: 25565 // optional, only if you need a custom port
+    MinecraftAPI.getServerStatus(serverIp, {
+        port: serverIpPort // optional, only if you need a custom port
     }, function (err, status) {
         if (err) {
             return document.querySelector('.server-status').innerHTML = 'Error loading status';
         }
 
-        // you can change these to your own message!
         document.getElementById('serverStatus').innerHTML = status.online ? 'Online' : 'Offline';
         document.getElementById('playersOn').innerHTML = status.players.now;
         document.getElementById('playersMax').innerHTML = status.players.max;
@@ -98,11 +117,6 @@ window.onload = function () {
 }
 
 function copyIp() {
-    let ip = document.getElementById('serverIpText').innerHTML;
-    navigator.clipboard.writeText(ip);
-}
-
-function logoClick() {
     let ip = document.getElementById('serverIpText').innerHTML;
     navigator.clipboard.writeText(ip);
 }

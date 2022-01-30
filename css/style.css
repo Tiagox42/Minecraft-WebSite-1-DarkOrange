@@ -57,6 +57,7 @@ html, body {
     background-color: darkorange;
     padding: 4px;
     color: black;
+    font-weight: bolder;
 }
 
 .serverStatus {

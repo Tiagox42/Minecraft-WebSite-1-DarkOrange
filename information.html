@@ -16,32 +16,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
     <script src="js/core.js"></script>
-    <script src="js/necessary.js"></script>
     <script src="js/buttons.js"></script>
-    <script>
-        document.onload = start();
-    </script>
 </head>
 
 <body>
     <div class="container">
-        <div class="serverIp">
-            <p>Server status: <b><span id="statusOnline" data-playercounter-ip="us.mineplex.com"
-                        data-playercounter-status>...</span></b> <span></span> Players: <b><span
-                        data-playercounter-ip="play.cubecraft.net"
-                        data-playercounter-format="{online}/{max}">0</span></b></p>
+        <div class="serverIp" onclick="copyIp()">
+            <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Players: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+            <p>SERVER IP » <span class="serverIpText" id="serverIpText">..</span></p>
+            
         </div>
         <div class="bar"></div>
 
-        <div class="bannerTop">
+        <div id="bannerTop" class="bannerTop">
             <div class="logo">
-                <img src="img/logo.png" alt="">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
             </div>
-            <a href="./index.html">
-                <p>BattleCraft</p>
-            </a>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
         </div>
         <div class="barTwo"></div>
         <div class="clear"></div>
