@@ -50,48 +50,42 @@ window.onload = function () {
 
 
     //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
-    //===============================================================================================================
+    //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
+    //------------------ DO NOT MODIFY THE CONTENT BELOW ------------------
 
-    document.getElementById('title').innerHTML = title;
-    document.getElementById('bannerTop').style.backgroundImage = "url(" + bannerTop + ")";
-    document.getElementById('image_Gfirst').style.backgroundImage = "url(" + image_Gfirst + ")";
-    document.getElementById('text_Gfirst').innerHTML = text_Gfirst;
-    document.getElementById('image_Gsecond').style.backgroundImage = "url(" + image_Gsecond + ")";
-    document.getElementById('text_Gsecond').innerHTML = text_Gsecond;
-    document.getElementById('image_Gtrird').style.backgroundImage = "url(" + image_Gtrird + ")";
-    document.getElementById('text_Gtrird').innerHTML = text_Gtrird;
-    document.getElementById('typeServer').innerHTML = typeServer;
-    document.getElementById('firstPlayerName').innerHTML = firstPlayerName;
-    document.getElementById('secondPlayerName').innerHTML = secondPlayerName;
-    document.getElementById('trirdPlayerName').innerHTML = trirdPlayerName;
-    document.getElementById('firstPlayerImage').src = "https://cravatar.eu/helmavatar/" + firstPlayerName + "/190.png";
-    document.getElementById('secondPlayerImage').src = "https://cravatar.eu/helmavatar/" + secondPlayerName + "/190.png";
-    document.getElementById('trirdPlayerImage').src = "https://cravatar.eu/helmavatar/" + trirdPlayerName + "/190.png";
-    document.getElementById('firstPlayerComment').innerHTML = firstPlayerComment;
-    document.getElementById('secondPlayerComment').innerHTML = secondPlayerComment;
-    document.getElementById('trirdtPlayerComment').innerHTML = trirdtPlayerComment;
-    document.getElementById('urlFacebook').href = urlFacebook;
-    document.getElementById('urlTwiiter').href = urlTwiiter;
-    document.getElementById('urlInstagram').href = urlInstagram;
-    document.getElementById('urlYoutube').href = urlYoutube;
-    document.getElementById('discordInvite').href = discordInvite;
-    document.getElementById('bannerSocialImage').style.backgroundImage = "url(" + bannerSocialImage + ")";
-    document.getElementById('serverIpText').innerHTML = serverIp;
+    try {
+
+        document.getElementById('serverIpText').innerHTML = serverIp;
+        document.getElementById('title').innerHTML = title;
+        document.getElementById('bannerTop').style.backgroundImage = "url(" + bannerTop + ")";
+        document.getElementById('image_Gfirst').style.backgroundImage = "url(" + image_Gfirst + ")";
+        document.getElementById('text_Gfirst').innerHTML = text_Gfirst;
+        document.getElementById('image_Gsecond').style.backgroundImage = "url(" + image_Gsecond + ")";
+        document.getElementById('text_Gsecond').innerHTML = text_Gsecond;
+        document.getElementById('image_Gtrird').style.backgroundImage = "url(" + image_Gtrird + ")";
+        document.getElementById('text_Gtrird').innerHTML = text_Gtrird;
+        document.getElementById('typeServer').innerHTML = typeServer;
+        document.getElementById('firstPlayerName').innerHTML = firstPlayerName;
+        document.getElementById('secondPlayerName').innerHTML = secondPlayerName;
+        document.getElementById('trirdPlayerName').innerHTML = trirdPlayerName;
+        document.getElementById('firstPlayerImage').src = "https://cravatar.eu/helmavatar/" + firstPlayerName + "/190.png";
+        document.getElementById('secondPlayerImage').src = "https://cravatar.eu/helmavatar/" + secondPlayerName + "/190.png";
+        document.getElementById('trirdPlayerImage').src = "https://cravatar.eu/helmavatar/" + trirdPlayerName + "/190.png";
+        document.getElementById('firstPlayerComment').innerHTML = firstPlayerComment;
+        document.getElementById('secondPlayerComment').innerHTML = secondPlayerComment;
+        document.getElementById('trirdtPlayerComment').innerHTML = trirdtPlayerComment;
+        document.getElementById('urlFacebook').href = urlFacebook;
+        document.getElementById('urlTwiiter').href = urlTwiiter;
+        document.getElementById('urlInstagram').href = urlInstagram;
+        document.getElementById('urlYoutube').href = urlYoutube;
+        document.getElementById('discordInvite').href = discordInvite;
+        document.getElementById('bannerSocialImage').style.backgroundImage = "url(" + bannerSocialImage + ")";
+
+    } catch (e) {
+
+
+    }
+
 
     MinecraftAPI.getServerStatus(serverIp, {
         port: serverIpPort // optional, only if you need a custom port
