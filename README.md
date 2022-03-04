@@ -24,5 +24,3 @@ Some images:
 
 
 ***It is not allowed to sell or post the files elsewhere, if you use the website on your server please give credit to this github, I intend to become a developer and spreading my work would help me a lot.***
-
-**My discord for contact: Doritoz#2416**
